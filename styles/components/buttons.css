@@ -1,0 +1,42 @@
+.btn-mediun {
+    width: 77px;
+    height: 39px;
+    background: #d81f26;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    
+ /* Estilo da fonte */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+.btn-larger {
+
+    width: 184px;
+    height: 60px;
+    background: #d81f26;
+    color: #fff;
+    border: none;
+    
+    /* Estilo da fonte */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+
+}
+
+.btn-larger img {
+    width: 8.75px;
+    height: 16.25px;
+    margin-left: 13.62px;
+}
+
+.btn-larger:hover, .btn-mediun:hover {
+    background: #F40612;
+    ;
+}

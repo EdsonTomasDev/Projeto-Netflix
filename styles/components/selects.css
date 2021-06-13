@@ -1,0 +1,51 @@
+.select_group {
+    position: relative;
+    display: inline-block;
+}
+
+.select_group select {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 118px;
+    height: 36px;
+
+    border: 1px solid rgb(255,255,255 0.6);
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+
+    /* Estilo da fonte */
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align-last: center;
+
+}
+
+.select_group select option {
+    color:black ;
+}
+.select_group img {
+    position: absolute;
+ }
+
+
+.select_group img.globo {
+    width: 11.62px;
+    height: 11.62px;
+    left: 8.19px;
+    top: 11.19px;
+}
+
+.select_group img.seta {
+    width: 10px;
+    height: 6px;
+    right: 10px;
+    top: 15.50px;
+}
