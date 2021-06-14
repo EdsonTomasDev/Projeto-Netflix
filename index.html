@@ -9,11 +9,15 @@
     <title>NetFlix</title>
 </head>
 <body style="background: gray;">
-    <button class="btn-mediun">Entrar</button>
-    <button class="btn-larger">
-        Vamos lá
-        <img src="assets/btn-arrows.svg" alt="">
-    </button>
+    <header class="header-background">
+        <button class="btn-mediun">Entrar</button>
+        <button class="btn-larger">
+            Vamos lá
+            <img src="assets/btn-arrows.svg" alt="">
+        </button>
+    </header>
+    
+   
 
     <div class="select_group">
       
@@ -23,9 +27,12 @@
             <option value="">Português</option>
             <option value="">Inglês</option>
         </select>
-    
-
     </div>
 
+        <div class="txt-group">
+            <input id="txtForMail" type="text"  name="txtForMail" placeholder="maratonas">
+            <label for="txtForMail">Email</label>
+           <br> <span>Mensagem de Erro</span>
+        </div>
 </body>
 </html>

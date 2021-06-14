@@ -49,3 +49,7 @@
     right: 10px;
     top: 15.50px;
 }
+
+.select_group select:focus {
+   outline: 1px solid #3c9df7;
+}
