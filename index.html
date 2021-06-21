@@ -8,40 +8,60 @@
     <link rel="stylesheet" href="styles/index.css">
     <title>NetFlix</title>
 </head>
-<body style="background: gray;">
+<body>
     <header class="header-background">
-        <div class="header-lineargradiente">
-            <div class="header-logo">
-                <img src="./assets/logo.svg" alt="Logo">
-            </div>
-    
-            <button class="btn-mediun">Entrar</button>
-            <button class="btn-larger">
-                Vamos lá
-                <img src="assets/btn-arrows.svg" alt="">
-            </button>
-       
-       
-        <div class="select_group">
+        <div class="header-lineargradiente"><!--INTI HEADER-LINEARGRADIENTE-->
+            <div class="header-top">
+                <!-- INIT HEADER-TOP -->
+                <div class="header-logo">
+                    <img src="./assets/logo.svg" alt="Logo">
+                </div>
+                <!-- INIT HEADER-CONTENT-R -->
+                <div class="header-content-r">
+                    <div class="select_group">
           
-            <img class="globo" src="assets/glob.svg" alt="select-icon">
-            <img class="seta" src="assets/select.svg" alt="select-icon">
-                <select name="" id="">
-                <option value="">Português</option>
-                <option value="">Inglês</option>
-            </select>
-        </div>
+                        <img class="globo" src="assets/glob.svg" alt="select-icon">
+                        <img class="seta" src="assets/select.svg" alt="select-icon">
+                        <select name="" id="">
+                            <option value="">Português</option>
+                            <option value="">Inglês</option>
+                        </select>
+                    </div>
     
-            <div class="txt-group">
-                <input id="txtForMail" type="text"  name="txtForMail" placeholder="maratonas">
-                <label for="txtForMail">Email</label>
-               <br> <span>Mensagem de Erro</span>
+                    <button class="btn-mediun">Entrar</button>
+                </div>
+                <!-- END HEADER-CONTENT-R -->
+
             </div>
+            <!-- END HEADER-TOP -->
+          
+            <!-- INIT MAIN CONTENT -->
+            <div class="main">
+
+                <div class="main-text">
+                    <h1>Filmes, séries e muito mais.</h1><br>
+                    <h1>Sem limites</h1>
+                    <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                    <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                </div>
+              
+                <div class="main-formgroup">
+                    <div class="txt-group">
+                        <input id="txtForMail" type="text"  name="txtForMail" placeholder="maratonas">
+                        <label for="txtForMail">Email</label>
+                       <br> <span class="hidden">Mensagem de Erro</span>
+                    </div>
     
-                <h1>Filmes, séries e muito mais.Sem limites.</h1>
-                <h2>Assista onde quiser. Cancele quando quiser.</h2>
-                <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-        </div>
+                    <button class="btn-larger">
+                        Vamos lá
+                        <img src="assets/btn-arrows.svg" alt="">
+                    </button>
+    
+                </div>
+               
+            </div>
+                        
+        </div><!--END HEADER-LINEARGRADIENTE-->
     
     </header>
 </body>
